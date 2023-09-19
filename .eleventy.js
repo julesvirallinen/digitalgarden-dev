@@ -59,6 +59,7 @@ module.exports = function (eleventyConfig) {
       },
     })
     .use(require("markdown-it-attrs"))
+    .use(require("markdown-it-video"))
     .use(require("markdown-it-task-checkbox"), {
       disabled: true,
       divWrap: false,
